@@ -1,7 +1,7 @@
 <% layout('layouts/boilerplate')%>
 <link rel="stylesheet" href="/stylesheets/star.css" />
 <div class="row">
-  <div class="col-6">
+  <div class="col-md-6">
     <div id="campgroundCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <% campground.images.forEach((img, i) => { %>
@@ -63,8 +63,8 @@
       <div class="card-footer text-muted">2 days ago</div>
     </div>
   </div>
-  <div class="col-6">
-    <div id="map"></div>
+  <div class="col-md-6">
+    <div id="map" class=""></div>
 
     <% if(currentUser){ %>
     <h2>Leave a Review</h2>
@@ -149,4 +149,4 @@
   const campground = <%- JSON.stringify(campground) %>
 </script>
 
-<script src="/javascripts/showPageMap.js"></script>
+<script src="/javascripts/showpageMap.js"></script>

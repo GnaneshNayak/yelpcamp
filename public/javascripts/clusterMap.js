@@ -7,7 +7,7 @@ const map = new mapboxgl.Map({
   zoom: 3,
 });
 // 12.994776, 77.591791;
-23.0707, 80.0982;
+// 23.0707, 80.0982;
 
 map.addControl(new mapboxgl.NavigationControl());
 

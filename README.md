@@ -2,7 +2,7 @@
 
 <a href="https://tasty-fatigues-cow.cyclic.app/">
  <p align="center">
-  <img src="https://i.imgur.com/F6IiDsR.png?w="350" alt="Campground"
+<!--   <img src="https://i.imgur.com/F6IiDsR.png?w="350" alt="Campground" -->
  </p>
 </a>
 
